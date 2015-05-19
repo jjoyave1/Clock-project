@@ -30,7 +30,7 @@ var timer = window.setInterval(function getTime() {
   }
 
   if (hours > 12) {
-    hours = '0' + (hours - 12);
+    hours = '' + (hours - 12);
   }
 
   var currentTime = hours + ':' + minute + ':' + seconds;
